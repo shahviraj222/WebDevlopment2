@@ -1,0 +1,94 @@
+ /* CSS Reset */
+ *
+ {
+     margin:0;
+     padding:0;
+ }
+ /* CSS Variables */
+ :root{
+     --navbar-height:50vh;
+ }
+ #navbar
+ {
+     display:flex;
+     align-items: center;
+     background-color: #6a8cbf;
+     height: 50px;
+ }
+
+ /*NavigationBar: logo and image  */
+ #logo
+ {
+     margin:15px 15px;;
+ }
+ #logo img
+ {
+     height: 50px;
+     border-radius: 25px;
+
+ }
+/*NavigationBar: logo and image  */
+#navbar ul
+{
+    display:flex;
+} 
+#navbar ul li
+{
+    color: black;
+    list-style: none;
+}
+#navbar ul li a
+{
+    display: block;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+#navbar ul li a:hover
+{
+    color: azure;
+    background-color: aqua;
+}
+.section
+{
+    padding: 50px;
+    background: url("../img/background2.jpg") no-repeat  ;
+    height:330px;
+    background-size:cover;
+    color: black;
+    text-align: center;
+}
+p{
+    text-align:center;
+}
+.btn
+{
+    background-color: burlywood;
+    margin: 60px ;
+    padding: 10px;
+    border-radius: 5px;
+}
+.list
+{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+.box
+{
+    margin: 5px;
+    background-color: #f4f1ed;
+    text-align: center;
+    border: 5px red solid;
+    height: 200px;
+    width: 30%;
+    border-radius: 10px;
+}
+.box img
+{
+    height: 115px;
+}

@@ -1,0 +1,96 @@
+*
+{
+    margin:0 ;
+    padding:0;
+}
+body 
+{
+    overflow: hidden;
+}
+.gamecontainer
+{
+    background-image: url("./imagesandsongs/bg.png");
+    background-size: 100vw 100vh;
+    background-repeat:repeat-x;
+    /* animation: roadmover linear 5s infinite; */
+    height: 100vh;
+    width: 100%;
+}
+.pika
+{
+    position: absolute;
+    bottom: 0;
+    width: 15%;
+    height: 30%;
+    background-image: url(./imagesandsongs/pika\ runing\ 2.gif);
+    background-size:100% 100%;/*best way to fit image in the given container*/ 
+}
+.obstacle
+{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    height: 30%;
+    background-image: url(./imagesandsongs/dragon.png);
+    background-size:100% 100%;
+    
+}
+.gameover
+{
+    
+    visibility:hidden;
+    position: relative;
+    top: 39%;
+    left: 22%;
+    background-image: url("./imagesandsongs/Game-over-2.webp");
+    width: 50%;
+    height: 25%;
+    background-size:100% 100%;
+
+}
+#score
+{
+    position: relative;
+    top: -155px;
+    clear: both;
+    
+}
+/* this is for my obstacle */
+.obani
+{
+    /* animation: roadmover linear 3s infinite; /* i am not be able to use this one because i calculate value of left at very instance here using transform i am not not be able to calculate the value of the offset of x and y  */  
+    animation: obmove linear 2s infinite;
+}
+
+/* this is for pikachu */
+.obt
+{
+    animation:  obt linear 1.2s infinite;
+}
+@keyframes obt {
+    0%{
+        bottom: 0;
+    }
+    50%{
+      bottom: 300px;
+    }
+    100%{
+        bottom: 0;;
+    }
+}
+@keyframes roadmover {
+    100%
+    {
+       transform:translateX(-100vw);
+    }
+    
+}
+@keyframes obmove {
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+}

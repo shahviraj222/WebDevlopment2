@@ -1,0 +1,106 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    display: inline-block;
+    float: left;
+    padding:fixed;
+}
+nav 
+{
+    display: flex;
+    background-color: black;
+    height: 100vh;  
+    padding: 10px; 
+    width: 12vw;
+    
+}
+.sound
+{
+    /* this is my main audio ka control */
+    display: none;
+position: relative;
+right: 170px;
+height: fit-content;
+top: 170px;
+border-radius: 5px;
+}
+main
+{
+    height: 300px;
+}
+nav img
+{
+    height: 3vh;
+}
+nav ul
+{
+    list-style:none;
+    padding: 5px;
+}
+nav li
+{
+    margin: 25px;
+    font-size: 2vw;
+    /* font-size:1vw; */
+}
+nav a:hover
+{
+    color: white;
+}
+main
+{
+    height:30vh;
+    display:flex;
+    /* margin-left: 5px; */
+}
+nav a
+{
+    color: #c2bebe;
+    text-decoration: none;
+}
+div
+{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+}
+.box
+{
+    display: flex;
+    margin: 5px;
+    height: 25vh;
+    /* width: fit-content; */
+    padding: 10px;
+    background-color: black;
+}
+.box img
+{
+    height: 18vh;
+    padding: 18px;
+    transition: 1s;
+}
+.box img:hover
+{
+    transform: scale(1.3);
+    z-index: 2;
+}
+main img
+{
+    height: 40vh;
+    padding: 18px;
+    transition: 1s;
+}
+main img:hover
+{
+    transform: scale(1.3);
+    z-index: 2;
+}
+body
+{
+    background-color: hsl(0, 0%, 20.8%);
+}
