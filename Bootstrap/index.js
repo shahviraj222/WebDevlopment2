@@ -22,7 +22,7 @@ function pre_temp()
     
     if(i==1)
     {
-        t=4
+       t=1
     }
     else{ 
         t=i-1
@@ -36,5 +36,8 @@ function pre_temp()
     p.style.display = 'none'; 
     n.style.display = 'block';
     console.log("next is clicked",i,t)
-
+    if(i!=1)
+    {
+        i=i--
+    }
 }
