@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orange;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    /* border: 3px solid rgb(170, 145, 8); */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.template {
+    display: inline-block;
+    height: 82vh;
+    width: 17vw;
+    margin: 5px;
+    /* padding:8em; */
+    /* border: 3px solid #ffd700; */
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+}
+
+.headtext {
+    height: 10vh;
+    /* border: 3px solid rgb(255, 162, 0); */
+    margin-bottom: 2vh;
+    padding: 1.3vw;
+    font-size: 1.3vw;
+    font-family: 'Edu SA Beginner', cursive;
+
+}
+
+.pricetext {
+    height: 15vh;
+    /* border: 3px solid rgb(255, 162, 0); */
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    background-color: rgb(0 166 255 / 13%);
+    ;
+    font-weight: bolder;
+    font-size: 1.3vw;
+}
+
+.descriptiontext {
+    height: 40vh;
+    /* border: 3px solid rgb(255, 162, 0); */
+    text-align: left;
+    overflow: hidden;
+    font-family: 'Cormorant SC', serif;
+}
+
+.pricetext b {
+    font-size: 3vw;
+
+}
+
+.pricetext p {
+    color: blue;
+}
+
+.mv
+{
+    display: none;
+}
