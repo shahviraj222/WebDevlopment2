@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <style>
+        .btn
+        {
+            color: rgb(244, 197, 9);
+            background-color: rgb(223, 166, 54);
+        }
+        .text
+        {
+            border: 2px solid greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Find Your Age</h1>
+    <div class="Container">
+        <div class="text" id="t">
+
+        </div>
+        <button class="btn" onclick="findage()">FindAge</button>
+        <button class="btn" onclick="resetage()">Reset</button>
+    </div>
+</body>
+<script>
+    function findage()
+    {
+        console.log("Finding age is runing")
+        var date = new Date();
+        var oldyear=window.prompt("Enter Your Birth Years");
+        var days=(date.getFullYear()-oldyear)*365 ;
+
+        var text=document.createTextNode('Your Age '+days+' In Days');
+        var div=document.getElementById('t');
+
+        var h1=document.createElement('h1');
+        h1.appendChild(text);
+        h1.setAttribute('id','ageindays');
+        div.appendChild(h1);
+
+    }
+    function resetage()
+    {
+        console.log("Resetage is working");
+        var div=document.getElementById('t');
+        div.removeChild(div.children[0]);
+
+        // other way is that remove the text div not children of text
+        // div.remove();
+    }
+</script>
+</html>
