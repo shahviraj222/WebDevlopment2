@@ -16,5 +16,28 @@ console.log(person.name)
 // outside the function
 init("viraj", 41)
 
+// setter
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    language: "",
+    set lang(lang) {
+      this.language = lang;
+    }
+  };
 
-//class in javascript
+//   getter or function
+const person2 = {
+    firstName: "John",
+    lastName: "Doe",
+    fullName: function() {
+      return this.firstName + " " + this.lastName;
+    }
+  };
+
+person2.assign("age",20)  
+// console.log(person2.fullName()) 
+console.log(person2)
+
+
+
