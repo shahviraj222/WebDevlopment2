@@ -1,0 +1,49 @@
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position:fixed;
+    top: 0;
+    right: 0;
+}
+.scorecard
+{
+    border: 5px solid pink;   
+}
+
+.playground
+{
+    /* display: block; */
+    display: flex;
+    /* display:none; */
+    flex-direction: column;
+}
+.chooice
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    border: 5px solid pink; 
+    flex-wrap: wrap;
+}
+.result
+{
+    /* display: block; */
+    border: 5px solid pink; 
+    align-self: center;
+    color: black;
+    
+}
+.option
+{
+    margin:5vh 0vh;
+}
+img
+{
+    width: 10vh;
+    height: 10vh;
+}
