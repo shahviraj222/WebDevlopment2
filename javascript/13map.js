@@ -1,3 +1,5 @@
+// map loops and return a arrau we can do anything with the help of methode we can describe inside the function
+
 // example 1
 const half=(nums)=>{
 
