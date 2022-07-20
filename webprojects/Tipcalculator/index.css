@@ -1,0 +1,55 @@
+body
+{
+    margin: auto;
+    padding: auto;
+    align-content: center;
+}
+#form
+{
+    margin: auto;
+    padding: auto;
+    padding: 3vw;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    border: 3px solid black;
+    background-color: black;
+    color: antiquewhite;
+    width: fit-content;
+    border-radius: 5px;
+}
+button
+{
+    display: inline-flex;
+    border: 2px solid blue;
+    border-radius:50%;
+}
+input
+{
+    width: fit-content;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+#nopeople
+{
+    display: inline-block;
+}
+#result
+{
+    display: inline-block;
+    position:relative;
+    top: 0;
+    right: 0;
+    
+}
+#totalbill
+{
+    display: inline-block;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid rebeccapurple;
+    border-radius: 8px;
+    
+}
