@@ -1,12 +1,10 @@
+// api runing asynchronously 
+// here one mre thing is promise fetch return and than we must have to convert into json and than print the json.message
+// superhero.com api's token
+// https://www.superheroapi.com/api.php/10223569763528853/30
 import fetch from 'node-fetch'
-// globalThis.fetch = fetch
-// https://dog.ceo/api/breeds/image/random link for getting images on our platform'
-// try fetch = require('https://dog.ceo/api/breeds/image/random ')
-// const parse = require('node-fetch')
-// Tryfetch = require('node-fetch')
+
 fetch('https://dog.ceo/api/breeds/image/random')
 .then(response =>response.json())
 .then(json => console.log(json))
 .then(json => console.log(json.message))
-// import {fetch} from 'node-fetch';
-// const response = await fetch('https://api.github.com/users/github');
