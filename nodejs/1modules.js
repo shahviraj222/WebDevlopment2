@@ -5,6 +5,6 @@ const b="Vimal"
 
 // we are exporting as object
 module.exports={a,b}
-console.log("I am runing inside the 1modules.js")
+console.log("I am runing 1modules.js")
 
 // console.log(module)
