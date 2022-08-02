@@ -1,0 +1,47 @@
+*{
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: max-content;
+    border: 2px solid blueviolet;
+    margin:auto;
+    border-radius:50px;
+    background-repeat: none;
+    
+    background-size: cover;
+    padding:50px;
+    font-size: large;
+    justify-items: center;
+    text-align: center;
+}
+#sbtn
+{
+    align-self: center;
+    width:max-content;
+    margin: 30px;
+    padding: 5px;
+    border-radius:10px ;
+    background-color: rgb(198, 206, 46);
+}
+.sbar
+{
+    align-self: center;
+    border-radius: 10px;
+}
+input{
+    border: 0px ;
+    border-radius: 10px;
+    height: 20px;
+}
+#sbtn:hover
+{
+    color: aliceblue;
+    background-color: rgb(255, 162, 0);
+}
