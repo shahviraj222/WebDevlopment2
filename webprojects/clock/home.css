@@ -1,0 +1,23 @@
+.maincon
+{
+    margin: auto; /*this take box in centre*/
+    margin-top: 10px;
+    padding: 70px;
+    height: 500px;
+    width:700px;
+    background-color: antiquewhite;
+}
+.seconcon
+{
+    text-align:start;
+    padding: 10px;
+
+}
+#btn
+{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+    margin-top: 5px;
+}
