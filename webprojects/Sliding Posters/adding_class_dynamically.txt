@@ -1,0 +1,18 @@
+<button onclick='addClass()'> Show Text </button>
+<p id="text" class="text hidden">This is the magic text</p>
+
+.text {
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+function addClass() {
+	var text = document.getElementById('text');
+	text.classList.remove('hidden');
+	text.classList.add('show');
+}
